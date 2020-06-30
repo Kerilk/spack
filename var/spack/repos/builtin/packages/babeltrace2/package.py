@@ -14,6 +14,7 @@ class Babeltrace2(AutotoolsPackage):
 
     maintainers = ['Kerilk']
 
+    version('2.0.3',      sha256='a53625152554102d868ba8395347d0daba0bec9c4b854c3e9bd97c77b0bf04a0')
     version('2.0.2',      sha256='30c684e8b948fb79b12ee6861957dc3b99f2aba33a11cfb7fbe598e8a4aae24a')
 
     variant('python', default=True, description="With python bindings")
